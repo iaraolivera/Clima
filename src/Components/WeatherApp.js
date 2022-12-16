@@ -25,6 +25,8 @@ function WeatherApp() {
       const json = await request.json();
 
       setWeather(json);
+      console.log(json);
+      console.log("hola");
     } catch (error) {}
   }
 
